@@ -27,6 +27,7 @@
     margin-bottom: 0.5em;
 }
 
+
 .card__botoes {
     display: flex;
     justify-content: space-between;
@@ -70,4 +71,8 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descricao__estrelinhas {
+    margin: 9px 0;
 }
