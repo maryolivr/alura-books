@@ -12,7 +12,13 @@
     width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper__imagem:hover {
+    transform: scale(1.1);
+
+}
+
+.swiper-button-prev, 
+.swiper-button-next {
     display: none;
 }
 
@@ -26,7 +32,6 @@
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
-
 
 .card__botoes {
     display: flex;
@@ -71,6 +76,10 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.botoes__ancora:hover {
+    color: var(--azul);
 }
 
 .descricao__estrelinhas {
